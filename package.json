@@ -1,0 +1,35 @@
+{
+  "name": "booklib",
+  "version": "0.0.1",
+  "description": "Booklib web app nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js --harmony app.js"
+  },
+  "engines": {
+    "node": "0.12.4"
+  },
+  "private": true,
+  "author": "bram",
+  "license": "MIT",
+  "dependencies": {
+    "koa-static": "latest",
+    "koa": "latest",
+    "koa-jsonp": "latest",
+    "koa-route": "latest",
+    "koa-logger": "latest",
+    "co-views": "latest",
+    "co-body": "latest",
+    "co-monk": "latest",
+    "monk": "^1.0.1",
+    "koa-session": "latest",
+    "bluebird": "^2.3.10",
+    "swig": "^1.4.2",
+    "nodemon": "^1.2.1",
+    "mime": "^1.2.11",
+    "co": "^3.0.6",
+    "mocha": "latest",
+    "should": "^3.3.1",
+    "supertest": "^0.12.1"
+   }  
+}
