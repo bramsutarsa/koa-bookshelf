@@ -4,7 +4,7 @@
   "description": "Booklib web app nodejs",
   "main": "app.js",
   "scripts": {
-    "start": "./node_modules/nodemon/bin/nodemon.js --harmony app.js"
+    "start": "./node_modules/nodemon/bin/nodemon.js --harmony app.js prod"
   },
   "engines": {
     "node": "0.12.4"
